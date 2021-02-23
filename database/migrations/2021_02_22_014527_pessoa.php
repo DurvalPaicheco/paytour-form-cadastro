@@ -21,7 +21,7 @@ class Pessoa extends Migration
             $table->char('telefone',13);
             $table->string('obs');
             $table->string('ip',30)->nullable();;
-            $table->json('cargo');
+            $table->string('cargo');
             $table->timestamps();
         });
     }

@@ -16,7 +16,7 @@ class FormularioController extends Controller
 
     public function index(){
 
-        $cargos = Cargos::all();
+        //$cargos = Cargos::all();
         $escolaridades = Escolaridade::all();
         
         return view('formulario.index',compact('cargos','escolaridades'));

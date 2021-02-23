@@ -62,19 +62,9 @@
             </div>
 
             <div class="form-group" required="true">
-                <label for="">Cargo :</label>
-                <select class="form-control" id="cargo" name='cargo'> 
-                    <option value="">Selecione</option>
-                    @if(isset($cargos) && !empty($cargos[0]['id']))
-                        @foreach($cargos as $cargo)
-                            <option value='{{ $cargo->id }}'> {{ $cargo->nome }} </option>        
-                        @endforeach
-                    @else
-                        <option value='99'>UX </option> 
-                        <option value='99'>por favor rode a seeder para popular o banco </option> 
-                    @endif
-                </select>
-            </div>
+                <label for="">Cargo Desejado:</label>
+                <input  type="text" class="form-control" id="cargo" name='cargo'> 
+             </div>
 
             
             <div class="form-group" required="true">
