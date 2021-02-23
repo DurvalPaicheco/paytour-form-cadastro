@@ -14,7 +14,7 @@ DB_PASSWORD=(sua senha)
 
 2. Execute o comando "php artisan migration" para que seja gerado todas as tabelas do banco de dados.
 
-3. Execute o comando "php artisan db:seed --class=CargosTableSeeder" e "php artisan db:seed --class=EscolaridadeTableSeeder" para que seja populado dados nas tabelas cargos e escolaridade.
+3. Execute o comando "php artisan db:seed --class=EscolaridadeTableSeeder" para que seja populado dados na tabela escolaridade.
 
 4. Configure no arquivo .env(raiz) a os dados nescessários para o envio de email.
 MAIL_MAILER=smtp
