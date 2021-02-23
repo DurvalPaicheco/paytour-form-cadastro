@@ -1,5 +1,5 @@
 Manual de utilização .
--Nescessário Laravel 8+
+-Recomendado Laravel 8+
 
 
 1. Configure a configuração de banco de dados no arqui .env(raiz)
