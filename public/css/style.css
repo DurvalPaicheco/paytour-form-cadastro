@@ -1,0 +1,51 @@
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(85, 46, 175);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+#cont{
+    padding: 10px;
+    width: 70%;
+    height: 100vh;
+    background: #fff;
+    border-radius: 10px;
+}
+
+#cadastrarCurriculo{
+    padding-top: 20px;
+    
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+
+}
+
+#cadastrarCurriculo #cont button{
+    margin-right: 10px;
+    float: right;
+}
+
+#cadastrarCurriculo #cont h1{
+    text-align: center;
+}
+
+#cadastrarCurriculo #cont div{
+    padding-top: 20px;
+
+}
+
+#modAlert h5 {
+    text-align: center;
+}
+
+.spanDanger{
+    color:red;
+}
